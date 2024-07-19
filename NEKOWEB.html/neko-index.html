@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>neko-</title>
+<link href="../css/neko-index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+	  <div class="icon">
+			<div class="DVD">
+			<button class="btndvd btn" data-img="dvdimg">111</button>
+			</div>
+		<div class="GOOGLE">
+	    <button class="btngoogle btn" data-img="googleimg">111</button></div>
+			<div class="SET">
+	    <button class="btnset btn" data-img="setimg">111</button></div>
+			<div class="ALBUM">
+	    <button class="btnalbum btn" data-img="albumimg">111</button></div>
+			<div class="TRASH">
+				<a href="neko-trash.html">→</a>
+	    </div>
+		</div>
+	<div class="dvdimg img">
+
+		<span class="dvd close">x</span>
+	</div>
+	<div class="googleimg img">
+		<span class="google close">x</span>
+		<a class="Google1" href="https://baijiahao.baidu.com/s?id=1788038764733713074&wfr=spider&for=pc" target="_blank">微博ai罗伯特</a>
+		<a class="Google2" href="https://cn.bing.com/search?pglt=171&q=%E6%9C%A8%E5%87%A0%E8%90%8C&cvid=a7c1f1faec6a4caf91072c037173813b&gs_lcrp=EgZjaHJvbWUqBggBEAAYQDIGCAAQRRg5MgYIARAAGEAyBggCEAAYQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDc5MTlqMGoxqAIIsAIB&FORM=ANNTA1&PC=LCTS" target="_blank">哔哩哔哩木几萌</a>
+		<a class="Google3" href="https://new.qq.com/rain/a/20230401A05SZC00" target="_blank">ai劝人自杀</a>
+		<a class="Google4" href="https://www.ithome.com/0/684/094.htm" target="_blank">ai eliza</a>
+	</div>
+	<div class="setimg img">
+		<span class="set close">x</span>
+	</div>
+	<div class="albumimg img">
+		<span class="album close">x</span>
+	</div>
+	<div class="trashimg img">
+		<span class="trash close">x</span>
+	</div>
+		
+		<div class="wenzi1">
+			<a class="wenzidvd">DVD</a>
+			<a class="wenzigoogle">&nbsp;GOOGLE</a>
+			
+			<a class="wenziset">设置</a>
+			<a class="wenzialbum">相册</a>
+			<a class="wenzitrash">回收站</a>
+		</div>
+		<div class="textbooks">
+			<div class="text1">
+				<button class="btntext1 btn" data-img="text1img">111</button>
+			</div>
+			<div class="text2">
+				<button class="btntext2 btn" data-img="text2img">111</button>
+			</div>
+			<div class="text3">
+				<button class="btntext3 btn" data-img="text3img">111</button>
+			</div>
+			<div class="text4">
+				<button class="btntext4 btn" data-img="text4img">111</button>
+			</div>
+			<div class="text5">
+				<button class="btntext5 btn" data-img="text5img">111</button>
+			</div>
+			<div class="text6">
+				<button class="btntext6 btn" data-img="text6img">111</button>
+			</div>
+		</div>
+		<div class="wenzi2">
+			<a class="wenzitext1">日记1</a>
+			<a class="wenzitext2">日记2</a>
+			<a class="wenzitext3">日记3</a>
+			<a class="wenzitext4">日记4</a>
+			<a class="wenzitext5">日记5</a>
+			<a class="wenzitext6">日记6</a>
+		</div>
+	</div>
+	<div class="text1img img">
+		<span class="riji1 close">x</span>
+	</div>
+	<div class="text2img img">
+		<span class="riji2 close">x</span>
+	</div>
+	<div class="text3img img">
+		<span class="riji3 close">x</span>
+	</div>
+	<div class="text4img img">
+		<span class="riji4 close">x</span>
+	</div>
+	<div class="text5img img">
+		<span class="riji5 close">x</span>
+	</div>
+	<div class="text6img img">
+		<span class="riji6 close">x</span>
+	</div>
+<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// 获取所有按钮
+			const buttons = document.querySelectorAll('.btn');
+			// 获取所有关闭按钮
+			const closeButtons = document.querySelectorAll('.close');
+
+			// 为每个按钮添加点击事件监听器
+			buttons.forEach(button => {
+				button.addEventListener('click', function() {
+					// 获取按钮对应的图片容器的类名
+					const targetImgClass = button.getAttribute('data-img');
+					// 根据类名找到对应的图片容器
+					const targetImg = document.querySelector(`.${targetImgClass}`);
+					// 显示图片容器
+					targetImg.style.display = 'flex';
+				});
+			});
+
+			// 为每个关闭按钮添加点击事件监听器
+			closeButtons.forEach(button => {
+				button.addEventListener('click', function() {
+					// 关闭对应的图片容器
+					this.parentElement.style.display = 'none';
+				});
+			});
+
+			// 定义拖动事件处理函数
+			function onDrag(e) {
+				const container = e.target.closest('.img');
+				if (!container) return;
+				let oddStyle = window.getComputedStyle(container);
+				let left = parseFloat(oddStyle.left);
+				let top = parseFloat(oddStyle.top);
+				container.style.left = `${left + e.movementX}px`;
+				container.style.top = `${top + e.movementY}px`;
+			}
+
+			// 为每个图片容器添加拖动事件监听器
+			document.querySelectorAll('.img').forEach(dragElement => {
+				dragElement.addEventListener('mousedown', () => {
+					document.addEventListener('mousemove', onDrag);
+					document.addEventListener('mouseup', () => {
+						document.removeEventListener('mousemove', onDrag);
+					}, { once: true });
+				});
+			});
+		});
+	</script>
+</body>
+</html>

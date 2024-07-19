@@ -1,0 +1,456 @@
+@charset "utf-8";
+body {margin: 0;
+  padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url(../img/index/2024-05-31%20015530.gif);
+}
+
+
+.icon {
+    width: 370px;
+    float: right;
+    margin-top: 38px;
+    margin-right: 5px;
+    height: 60px;
+}
+
+.icon .DVD {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-image: url(../img/index/DVD.png);
+    background-position: 0% 0%;
+    background-size: 98% auto;
+}
+
+.icon .DVD .btndvd.btn {
+}
+
+.icon .GOOGLE {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/index/%E8%B0%B7%E6%AD%8C.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 18px;
+}
+.icon .GOOGLE .btngoogle.btn {
+}
+
+.icon .SET {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/index/%E8%AE%BE%E7%BD%AE1.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 18px;
+}
+.icon .ALBUM {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/index/%E7%9B%B8%E5%86%8C.png);
+    background-position: 0% 0%;
+    background-size: 120% auto;
+    float: left;
+    margin-left: 18px;
+    background-repeat: no-repeat;
+}
+.icon .TRASH {
+    width: 45px;
+    height: 50px;
+    background-image: url(../img/index/%E5%9B%9E%E6%94%B6%E7%AB%99.png);
+    background-position: 0% 0%;
+    background-size: 98% auto;
+    float: left;
+    margin-left: 23px;
+    margin-right: 0px;
+}
+.icon .TRASH a {
+    width: 45px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+.container .wenzi1 {
+    width: 370px;
+    float: right;
+    margin-top: 2px;
+    height: 20px;
+    margin-left: 1000px;
+    font-family: "方正像素12";
+    color: #D6D6D6;
+    font-size: small;
+}
+.container .wenzi1 .wenzidvd {
+    margin-left: 9px;
+
+}
+.container .wenzi1 .wenzigoogle {
+    margin-left: 24px;
+}
+.container .wenzi1 .wenziset {
+    margin-left: 31px;
+}
+.container .wenzi1 .wenzialbum {
+    margin-left: 34px;
+}
+.container .wenzi1 .wenzitrash {
+    margin-left: 33px;
+}
+
+
+
+
+
+
+.container .textbooks {
+    width: 400px;
+    float: right;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.container .textbooks .text1 {
+    width: 50px;
+    height: 70px;
+    background-image: url(../img/index/%E6%97%A5%E8%AE%B0.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    background-repeat: no-repeat;
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.textbooks .text1 .btntext1 {
+
+}
+
+.container .textbooks .text2 {
+    width: 50px;
+    height: 70px;
+    background-image: url(../img/index/%E6%97%A5%E8%AE%B0.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+}
+.textbooks .text2 .btntext2 {    width: 100%;
+    height: 100%;
+	opacity: 0;
+}
+
+
+
+.container .textbooks .text3 {
+    width: 50px;
+    height: 70px;
+    background-image: url(../img/index/%E6%97%A5%E8%AE%B0.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+}
+.textbooks .text3 .btntext3 {    width: 100%;
+    height: 100%;
+	opacity: 0;
+}
+
+.container .textbooks .text4 {
+    width: 50px;
+    height: 70px;
+    background-image: url(../img/index/%E6%97%A5%E8%AE%B0.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+}
+.textbooks .text4 .btntext4 {    width: 100%;
+    height: 100%;
+	opacity: 0;
+}
+
+.container .textbooks .text5 {
+    width: 50px;
+    height: 70px;
+    background-image: url(../img/index/%E6%97%A5%E8%AE%B0.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+}
+.textbooks .text5 .btntext5 {    width: 100%;
+    height: 100%;
+	opacity: 0;
+}
+
+
+.container .textbooks .text6 {
+    width: 50px;
+    height: 70px;
+    background-image: url(../img/index/%E6%97%A5%E8%AE%B0.png);
+    background-position: 0% 0%;
+    background-size: 100% auto;
+    float: left;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+}
+.textbooks .text6 .btntext6 {    width: 100%;
+    height: 100%;
+	opacity: 0;
+}
+
+.container .wenzi2 {
+    width: 400px;
+    float: right;
+    margin-top: px;
+    margin-right: 0px;
+    height: 25px;
+    margin-left: 1000px;
+    font-family: "方正像素12";
+    color: #D6D6D6;
+    font-size: small;
+}
+.container .wenzi2 .wenzitext1 {
+    margin-left: 5px;
+}
+.container .wenzi2 .wenzitext2 {
+    margin-left: 25px;
+}
+.container .wenzi2 .wenzitext3 {
+    margin-left: 24px;
+}
+.container .wenzi2 .wenzitext4 {
+    margin-left: 21px;
+}
+.container .wenzi2 .wenzitext5 {
+    margin-left: 27px;
+
+}
+.container .wenzi2 .wenzitext6 {
+    margin-left: 22px;
+}
+/* Repeat similar styling for text4, text5, text6, etc. */
+.text1img, .text2img, .text3img, .text4img, .text5img, .text6img, .dvdimg, .googleimg, .albumimg, .setimg, .trashimg{
+    width: 400px;
+    height: 500px;
+    float: left;
+    display: none;
+    position: absolute;
+}
+
+.text1img {
+    width: 210px;
+    height: 477px;
+    background-image: url(../img/TEXT-1/%E8%B5%84%E6%BA%90%206.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: -730px;
+    
+}
+.text2img {
+    width: 320px;
+    height: 457px;
+    margin-top: -600px;
+    background-image: url(../img/TEXT-2/300ppi/%E8%B5%84%E6%BA%90%2016@300x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    
+}
+.text3img {
+    width: 450px;
+    height: 450px;
+    margin-top: -650px;
+    background-image: url(../img/TEXT-3/300ppi/33333.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+}
+.text4img {
+    width: 410px;
+    height: 440px;
+    margin-top: -730px;
+    background-image: url(../img/TEXT-4/300ppi/44444.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 350px;
+}
+.text5img {
+    width: 420px;
+    height: 420px;
+    margin-top: -500px;
+    background-image: url(../img/TEXT-5/300ppi/55555.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 500px;
+}
+.text6img {
+    width: 564px;
+    height: 470px;
+    margin-top: -600px;
+    background-image: url(../img/TEXT-6/300ppi/66666.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 800px;
+}
+
+.close {
+    float: right;
+    opacity: 1;
+    width: 22px;
+    height: 22px;
+    color: #894556;
+    font-family: "方正像素12";
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 100%;
+    vertical-align: middle;
+    text-indent: 6px;
+    cursor: pointer;
+    position: absolute;
+}
+.text1img .riji1 {
+    margin-top: -7px;
+    margin-left: 190px;
+}
+.text2img .riji2 {
+    margin-left: 173px;
+    margin-top: -7px;
+}
+.text3img .riji3 {
+    margin-left: 182px;
+    margin-top: -7px;
+}
+.text4img .riji4 {
+    margin-left: 185px;
+    margin-top: -7px;
+}
+.text5img .riji5 {
+    margin-left: 175px;
+    margin-top: -7px;
+}
+.text6img .riji6 {
+    margin-left: 140.5px;
+    margin-top: -7px;
+}
+.container .dvdimg {
+    width: 399px;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+	margin-top: 45px;
+    background-image: url(../img/DVD/QQ%E8%A7%86%E9%A2%9120240606174125.gif);
+}
+.container .dvdimg.img .dvd.close {
+	margin-left: 373px;
+	margin-top: -5px;
+}
+.container .googleimg.img {
+    width: 417px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 255px;
+	margin-top: 100px;
+    background-image: url(../img/GOOGLE/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240606182223.jpg);
+}
+.container .googleimg.img .google.close {
+	margin-left: 387px;
+	margin-top: -3.5px;
+}
+.container .googleimg.img .Google1 {
+    font-family: "方正像素12";
+    color: #747474;
+    text-align: justify;
+    float: none;
+    width: 500px;
+    height: 50px;
+    font-size: large;
+    margin-top: 65px;
+    margin-left: 59px;
+}
+.container .googleimg.img .Google2 {
+    font-family: "方正像素12";
+    color: #747474;
+    text-align: justify;
+    width: 500px;
+    height: 50px;
+    font-size: large;
+    margin-top: 115px;
+    margin-left: -165px;
+}
+.container .googleimg.img .Google3 {
+    font-family: "方正像素12";
+    color: #747474;
+    text-align: justify;
+    float: none;
+    width: 500px;
+    height: 50px;
+    font-size: large;
+    margin-top: 165px;
+    margin-left: -152px;
+}
+.container .googleimg.img .Google4 {
+    font-family: "方正像素12";
+    color: #747474;
+    text-align: justify;
+    float: none;
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    margin-top: 209px;
+    margin-left: -145px;
+}
+
+.container .setimg.img {
+    width: 416px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 530px;
+    margin-top: 150px;
+    background-image: url(../img/SET/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240606182423.jpg);
+}
+.container .setimg.img .set.close {
+	margin-left: 387px;
+	margin-top: -3.5px;
+}
+.container .albumimg.img {
+    width: 416px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 850px;
+    margin-top: 220px;
+    background-image: url(../img/ALBUM/QQ%E5%9B%BE%E7%89%8720240606174136.gif);
+}
+.container .albumimg.img .album.close {
+	margin-left: 387px;
+	margin-top: -3.5px;
+}
